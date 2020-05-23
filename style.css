@@ -11,5 +11,24 @@
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
+}
 
+.banner .navigation-bar {
+    position: fixed;
+    padding: 10px 0;
+    background-color: #444;
+}
+
+.banner .navigation-bar .logo {
+    position: relative;
+    margin-left: 10%;
+    font-size: 2.2em;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.banner .navigation-bar .logo a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
 }
