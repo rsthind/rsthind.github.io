@@ -3,25 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Ranveer</title>
+    <!--script-->
+    <script type="text/javascript" src="main.js"></script>
     <!--main css file-->
     <link rel="stylesheet" type="text/css" href="style.css" />
     <!--bootstrap cdn-->
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
     <!--font cdn-->
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
 </head>
 <body>
     <!--home section-->
     <section class="container-fluid banner" id="home">
         <div class="row">
+            <div class="nav2" id="nav2">
+                <i class="fa fa-close" onclick="navclose();"></i>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#home">About</a></li>
+                    <li><a href="#home">Experience</a></li>
+                    <li><a href="#home">Projects</a></li>
+                </ul>
+            </div>
             <div class="col-md-12 navigation-bar navbar" id="navigation-bar">
                 <div class="logo navbar-brand">
                     <a href="index.html">
                         Ranveer
                     </a>
                 </div>
-                <div class="menu-text">
+                <div class="menu-text" onclick="navopen();">
                     <p class="menu-heading">MENU</p>
                     <i class="fa fa-bars"></i>
                 </div>
@@ -45,8 +56,6 @@
                 <h2>SCROLL DOWN</h2>
             </a>
         </div>
-    </section>s
-    <!--script-->
-    <script type="text/javascript" src="main.js"></script>
+    </section>
 </body>
 </html>
