@@ -100,5 +100,17 @@
 }
 
 .banner .info-banner .social-icons {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6em;
+}
 
+.banner .info-banner .social-icons a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s linear;
+}
+
+.banner .info-banner .social-icons a:hover{
+    color: #2ecc71;
 }
