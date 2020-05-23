@@ -6,7 +6,7 @@
 .banner{
     height: 100vh;
     width: 100%;
-    background:url("images/background.jpg");
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/images/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,6 +16,7 @@
 .banner .navigation-bar {
     position: fixed;
     padding: 5px 0;
+    top: 2%;
 }
 
 .banner .navigation-bar .logo {
@@ -57,4 +58,10 @@
 
 .banner .navigation-bar .menu-text .menu-heading i{
     font-size: 1.5em;
+}
+
+.banner .info-banner{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
