@@ -344,3 +344,50 @@ html{
     text-align: left;
     clear: both;
 }
+
+.timeline ul li:before {
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: -4px;
+    width: 10px;
+    height: 10px;
+    background: #2ecc71;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #2ecc71;
+}
+
+.content {
+    padding-bottom: 20px;
+}
+
+.timeline ul li h3{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: #2ecc71;
+}
+
+.timeline ul li p{
+    margin: 10px 0 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.timeline ul li .time h4{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.timeline ul li .time {
+    position: absolute;
+    top: 12px;
+    left: -105px;
+    margin: 0;
+    padding: 8px 16px;
+    background: #2ecc71;
+    color: #fff;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px #2ecc71;
+}
