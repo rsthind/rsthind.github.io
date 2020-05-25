@@ -310,3 +310,37 @@ html{
 .projects .item .btn-light:hover{
     background: #2ecc71;
 }
+
+/*Experience*/
+.timeline {
+    position: relative;
+    margin: 50px auto;
+    padding: 40px 0;
+    width: 1000px;
+ }
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    left: 15%;
+    width: 2px;
+    height: 100%;
+    background: #c5c5c5;
+
+}
+
+.timeline ul{
+    margin: 0;
+    padding: 0;
+}
+
+.timeline ul li{
+    list-style: none;
+    position: relative;
+    width: 85%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    float: right;
+    text-align: left;
+    clear: both;
+}
