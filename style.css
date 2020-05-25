@@ -317,6 +317,7 @@ html{
     margin: 50px auto;
     padding: 40px 0;
     width: 1000px;
+    box-sizing: border-box;
  }
 
 .timeline:before {
@@ -329,12 +330,12 @@ html{
 
 }
 
-.timeline ul{
+.timeline .timelinePoint{
     margin: 0;
     padding: 0;
 }
 
-.timeline ul li{
+.timeline .timelinePoint .point{
     list-style: none;
     position: relative;
     width: 85%;
@@ -345,7 +346,11 @@ html{
     clear: both;
 }
 
-.timeline ul li:before {
+.timeline .timelinePoint .point .tab{
+    padding: 0px 40px;
+}
+
+.timeline .timelinePoint .point:before {
     content: '';
     position: absolute;
     top: 24px;
@@ -361,29 +366,35 @@ html{
     padding-bottom: 20px;
 }
 
-.timeline ul li h3{
+.content .image-logo img{
+    width: 400px;
+    height: 100px;
+}
+
+.timeline .timelinePoint .point h3{
     margin: 0;
     padding: 0;
     font-weight: 600;
     color: #2ecc71;
+    font-size: 30px;
 }
 
-.timeline ul li p{
+.timeline .timelinePoint .point p{
     margin: 10px 0 0;
     padding: 0;
-    font-weight: 600;
+    font-weight: 400;
 }
 
-.timeline ul li .time h4{
+.timeline .timelinePoint .point .time h4{
     margin: 0;
     padding: 0;
-    font-size: 14px;
+    font-size: 20px;
 }
 
-.timeline ul li .time {
+.timeline .timelinePoint .point .time {
     position: absolute;
     top: 12px;
-    left: -105px;
+    left: -235px;
     margin: 0;
     padding: 8px 16px;
     background: #2ecc71;
@@ -391,3 +402,5 @@ html{
     border-radius: 18px;
     box-shadow: 0 0 0 3px #2ecc71;
 }
+
+
