@@ -103,19 +103,19 @@ html{
     color: #000;
 }
 
-.banner .info-banner .social-icons {
+.front {
     display: flex;
     flex-direction: column;
     font-size: 2.6em;
 }
 
-.banner .info-banner .social-icons a{
+.front a{
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     transition: 0.2s linear;
 }
 
-.banner .info-banner .social-icons a:hover{
+.front a:hover{
     color: #2ecc71;
 }
 
