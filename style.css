@@ -371,6 +371,11 @@ html{
     height: 100px;
 }
 
+.content .image-logo-GTRI img{
+    width: 500px;
+    height: 75px;
+}
+
 .timeline .timelinePoint .point h3{
     margin: 0;
     padding: 0;
